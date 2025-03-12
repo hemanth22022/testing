@@ -1,1 +1,49 @@
 this is my first test file 
+working on file1 we can merge it
+i think it is safe
+[200~how to change the repo in windows ? cmd                 (git init)
+Can we create a file in branch from cmd
+can we delete only the commit(comeback) not the file
+in realtime  we create a beanch
+can we delete the repo?
+
+when we get a project ? we do first. we need to ask for repo name. how we start the work like we create a branch in our local system?
+
+==============================================================================================================
+
+For every repository we need to create token for clone?
+if we clone a repository all branches will come into local repo? only main branch and files in main branche is coming to local
+=============================================================================================================
+so we will get url from company or invite from company once we open it, it directly going into company repository. before forking it, if we do any changes or adding  files will change in company repository directly right.
+
+for repo we will create a token?
+
+================================================================================================================
+
+1)git init
+2)git config --global user.name "Hemanth"
+3)git config --global user.email "hemanth4304@gmail.com"
+4)git status
+5)git add
+6)git commit -m "message"
+7)git log
+      git log -n1
+      git log -n2
+      git log --oneline
+
+8)git show "commit_id"
+9)git rm file/directory
+10) git commit -m "delete the f1 file"
+------------------------------------------------------
+11) git branch
+13) git branch branchname  // Create branch
+14) git branch -a   //Both local and remote
+15) git checkout branchname   // Switch to branch
+16) git checkout -b branchname  // Create and switch to branch
+17) git branch -D branchname  // delete branch
+-----------------------------------------------------
+
+
+
+
+
