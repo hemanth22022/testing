@@ -1,1 +1,105 @@
 this is my first test file 
+working on file1 we can merge it
+i think it is safe
+[200~how to change the repo in windows ? cmd                 (git init)
+Can we create a file in branch from cmd
+can we delete only the commit(comeback) not the file
+in realtime  we create a beanch
+can we delete the repo?
+
+when we get a project ? we do first. we need to ask for repo name. how we start the work like we create a branch in our local system?
+
+==============================================================================================================
+
+For every repository we need to create token for clone?
+if we clone a repository all branches will come into local repo? only main branch and files in main branche is coming to local
+=============================================================================================================
+so we will get url from company or invite from company once we open it, it directly going into company repository. before forking it, if we do any changes or adding  files will change in company repository directly right.
+
+for repo we will create a token?
+
+================================================================================================================
+
+1)git init
+2)git config --global user.name "Hemanth"
+3)git config --global user.email "hemanth4304@gmail.com"
+4)git status
+5)git add
+6)git commit -m "message"
+7)git log
+      git log -n1
+      git log -n2
+      git log --oneline
+
+8)git show "commit_id"
+9)git rm file/directory
+10) git commit -m "delete the f1 file"
+------------------------------------------------------
+11) git branch
+13) git branch branchname  // Create branch
+14) git branch -a   //Both local and remote
+15) git checkout branchname   // Switch to branch
+16) git checkout -b branchname  // Create and switch to branch
+17) git branch -D branchname  // delete branch
+-----------------------------------------------------
+
+
+
+
+3. git pull: Pull is an mechanism for downloading the updated changes from remote repository branch to local repository branch.
+
+ command: git pull origin branch_name
+          git pull -f origin --tags
+
+[root@ip-172-31-8-220 automation-devops]# git pull origin main
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 1.01 KiB | 1.01 MiB/s, done.
+From https://github.com/sagargouddevops/automation-devops
+ * branch            main       -> FETCH_HEAD
+   964d049..4197cc1  main       -> origin/main
+Updating 964d049..4197cc1
+Fast-forward
+ new-sample.txt | 2 ++
+ 1 file changed, 2 insertions(+)
+ create mode 100644 new-sample.txt
+[root@ip-172-31-8-220 automation-devops]#
+
+
+git pull = git fetch + git merge
+
+=============================================================================================================================
+4. git fetch: Fetch is an mechanism for downloading the updated changes from remote repository branch to an intermediatory branch called as "origin/branch_name".
+
+command: local-main> git fetch origin main    // fetch will bring changes from "remote main branch" into "origin/main" branch
+         local-main> git merge orig
+
+	 ===========================/////////////////================/////////////////////
+
+
+	 )git init
+2)git config --global user.name "Hemanth"
+3)git config --global user.email "hemanth4304@gmail.com"
+4)git status
+5)git add
+6)git commit -m "message"
+7)git log
+      git log -n1
+      git log -n2
+      git log --oneline
+
+8)git show "commit_id"
+9)git rm file/directory
+10) git commit -m "delete the f1 file"
+------------------------------------------------------
+11) git branch
+13) git branch branchname  // Create branch
+14) git branch -a   //Both local and remote
+15) git checkout branchname   // Switch to branch
+16) git checkout -b branchname  // Create and switch to branch
+17) git branch -D branchname  // delete branch
+-----------------------------------------------------
+
+=============================//////////////////////////////////=====================////////////////////////====================///////////////===============
