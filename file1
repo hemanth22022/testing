@@ -74,4 +74,32 @@ git pull = git fetch + git merge
 4. git fetch: Fetch is an mechanism for downloading the updated changes from remote repository branch to an intermediatory branch called as "origin/branch_name".
 
 command: local-main> git fetch origin main    // fetch will bring changes from "remote main branch" into "origin/main" branch
-         local-main> git merge origi
+         local-main> git merge orig
+
+	 ===========================/////////////////================/////////////////////
+
+
+	 )git init
+2)git config --global user.name "Hemanth"
+3)git config --global user.email "hemanth4304@gmail.com"
+4)git status
+5)git add
+6)git commit -m "message"
+7)git log
+      git log -n1
+      git log -n2
+      git log --oneline
+
+8)git show "commit_id"
+9)git rm file/directory
+10) git commit -m "delete the f1 file"
+------------------------------------------------------
+11) git branch
+13) git branch branchname  // Create branch
+14) git branch -a   //Both local and remote
+15) git checkout branchname   // Switch to branch
+16) git checkout -b branchname  // Create and switch to branch
+17) git branch -D branchname  // delete branch
+-----------------------------------------------------
+
+=============================//////////////////////////////////=====================////////////////////////====================///////////////===============
